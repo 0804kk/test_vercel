@@ -46,6 +46,10 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+          <a href="./about" className={styles.card}>
+            <h3>About &rarr;</h3>
+            <p>Move to about page</p>
+          </a>
         </div>
       </main>
 
