@@ -10,13 +10,15 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          kkkkkkkk <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Welcome to My Portfolio Site!</h1>
 
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
         </p>
+        <a href="./about" className={styles.card}>
+          <h3>About &rarr;</h3>
+          <p>Move to about page</p>
+        </a>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -45,10 +47,6 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
-          <a href="./about" className={styles.card}>
-            <h3>About &rarr;</h3>
-            <p>Move to about page</p>
           </a>
         </div>
       </main>
